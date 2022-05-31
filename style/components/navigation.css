@@ -1,4 +1,5 @@
 nav {
+  font-family: var(--font-nav);
   background-color: var(--basecolor);
   height: 80px;
   position: fixed;

@@ -1,10 +1,14 @@
-* {
-  box-sizing: border-box;
+:root {
+  --font-base: ComicNeue-Bold;
+  --color-base: lightblue;
+  --color-second: blue;
+  --color-highlight: #2288bf;
 }
 
-:root {
-  --basecolor: lightblue;
-  --color2: blue;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
