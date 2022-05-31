@@ -1,9 +1,18 @@
 nav {
-  font-family: var(--font-nav);
-  background-color: var(--basecolor);
+  font-family: var(--font-comic-it);
+  background-color: var(--color-base);
   height: 80px;
   position: fixed;
   bottom: 0;
   left: 0;
   width: 100%;
+  display: flex;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin: 10px;
 }

@@ -1,7 +1,14 @@
 :root {
-  --font-base: ComicNeue-Bold;
-  --color-base: lightblue;
-  --color-second: blue;
+  --font-comic-bolt: ComicNeue-Bold;
+  --font-comic-boltit: ComicNeue-BoldItalic;
+  --font-comic-it: ComicNeue-Italic;
+  --font-comic-li: ComicNeue-Light;
+  --font-comic-liit: ComicNeue-LightItalic;
+  --font-comic-reg: ComicNeue-Regular;
+  --font-tiro-it: TiroDevanagariMarathi-Italic;
+  --font-tiro-reg: TiroDevanagariMarathi-Regular;
+  --color-base: rgb(218, 244, 253);
+  --color-second: rgb(6, 6, 57);
   --color-highlight: #2288bf;
 }
 
@@ -12,9 +19,12 @@
 }
 
 body {
-  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: var(--color-base);
 }
 
 ul {
   list-style: none;
+  text-decoration: none;
 }

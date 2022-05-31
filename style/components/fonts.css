@@ -1,0 +1,47 @@
+@font-face {
+  font-family: ComicNeue-Bold;
+
+  src: url(../../fonts/ComicNeue-Bold.ttf);
+}
+
+@font-face {
+  font-family: ComicNeue-BoldItalic;
+
+  src: url(../../fonts/ComicNeue-BoldItalic.ttf);
+}
+
+@font-face {
+  font-family: ComicNeue-Italic;
+
+  src: url(../../fonts/ComicNeue-Italic.ttf);
+}
+
+@font-face {
+  font-family: ComicNeue-Light;
+
+  src: url(../../fonts/ComicNeue-Light.ttf);
+}
+
+@font-face {
+  font-family: ComicNeue-LightItalic;
+
+  src: url(../../fonts/ComicNeue-LightItalic.ttf);
+}
+
+@font-face {
+  font-family: ComicNeue-Regular;
+
+  src: url(../../fonts/ComicNeue-Regular.ttf);
+}
+
+@font-face {
+  font-family: TiroDevanagariMarathi-Italic;
+
+  src: url(../../fonts/TiroDevanagariMarathi-Italic.ttf);
+}
+
+@font-face {
+  font-family: TiroDevanagariMarathi-Regular;
+
+  src: url(../../fonts/TiroDevanagariMarathi-Regular.ttf);
+}
