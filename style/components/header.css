@@ -5,9 +5,10 @@ header {
   justify-content: center;
   gap: 10px;
   padding: 20px;
+  margin-bottom: 1rem;
 }
 
 h1 {
-  font-family: var(--font-comic-bo);
+  font-family: var(--font-tiro-it);
   color: var(--color-second);
 }

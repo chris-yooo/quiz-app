@@ -18,13 +18,42 @@
   padding: 0;
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+  padding: 0 1rem;
+}
+
 body {
   display: flex;
   flex-wrap: wrap;
   background-color: var(--color-base);
+  width: 100vw;
+  background-color: lavender;
+  font-family: "Roboto", sans-serif;
+  color: rgb(30, 30, 30);
 }
 
-ul {
-  list-style: none;
+li {
   text-decoration: none;
+}
+
+p {
+  margin: 1rem 0;
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.2rem;
+}
+
+.profile-header {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+
+.profile-image {
+  width: 100px;
+  margin-right: 1rem;
+  border-radius: 1rem;
 }
