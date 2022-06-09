@@ -1,8 +1,14 @@
 header {
-  background-color: var(--basecolor);
-  height: 80px;
+  display: flex;
+  background-color: var(--color-base);
+  width: 100%;
+  justify-content: center;
+  gap: 10px;
+  padding: 20px;
+  margin-bottom: 1rem;
 }
 
-p {
-  color: var(--color2);
+h1 {
+  font-family: var(--font-tiro-it);
+  color: var(--color-second);
 }
