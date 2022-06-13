@@ -1,0 +1,11 @@
+.profile-header {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+
+.profile-image {
+  width: 100px;
+  margin-right: 1rem;
+  border-radius: 1rem;
+}

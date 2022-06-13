@@ -18,20 +18,14 @@
   padding: 0;
 }
 
-main {
-  display: flex;
-  flex-direction: column;
-  padding: 0 1rem;
-}
-
 body {
   display: flex;
-  flex-wrap: wrap;
+  flex-flow: column wrap;
   background-color: var(--color-base);
+  font-family: var(--font-comic-bolt);
   width: 100vw;
-  background-color: lavender;
-  font-family: "Roboto", sans-serif;
   color: rgb(30, 30, 30);
+  padding: 0 1rem;
 }
 
 li {
@@ -44,16 +38,4 @@ p {
   font-style: normal;
   font-stretch: normal;
   line-height: 1.2rem;
-}
-
-.profile-header {
-  display: flex;
-  justify-items: center;
-  align-items: center;
-}
-
-.profile-image {
-  width: 100px;
-  margin-right: 1rem;
-  border-radius: 1rem;
 }
