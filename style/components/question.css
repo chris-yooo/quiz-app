@@ -1,39 +1,33 @@
-article {
-  background-color: whitesmoke;
+.card {
+  background-color: var(--color-base);
   padding: 1.5rem;
   border-radius: 1rem;
   margin: 0.5rem 0;
-  grid-column: 1/5;
   display: flex;
-  flex-direction: column;
+  flex-flow: column wrap;
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
   position: relative;
 }
 
-article:last-of-type {
-  margin-bottom: 5rem;
-}
-
-article .material-symbols-outlined {
+.card__bookmark {
   position: absolute;
   top: -0.4rem;
   right: 1rem;
-  color: darkslateblue;
-  font-variation-settings: "FILL" 1, "wght" 400, "GRAD" 0, "opsz" 48;
-  font-size: 2rem;
+  font-size: 4rem;
+  color: var(--color-second);
 }
 
-article .material-symbols-outlined.not-selected {
-  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+.card__bookmark--active {
+  color: var(--color-highlight);
 }
 
-.tag-list {
+.card__tag-list {
   display: flex;
   flex-wrap: wrap;
   margin: 1rem 0 0.25rem 0;
 }
 
-.tag-list li {
+.card__tag-list li {
   border: 1px solid;
   border-radius: 1rem;
   list-style-type: none;
@@ -41,12 +35,12 @@ article .material-symbols-outlined.not-selected {
   margin: 0 0.5rem 0.25rem 0;
 }
 
-.button {
+.card__button {
   margin: 0.5rem auto;
   font-size: 1rem;
   padding: 0.5rem 1rem;
 }
 
-.hidden {
+.card__button--hidden {
   visibility: hidden;
 }

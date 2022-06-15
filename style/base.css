@@ -5,11 +5,9 @@
   --font-comic-li: ComicNeue-Light;
   --font-comic-liit: ComicNeue-LightItalic;
   --font-comic-reg: ComicNeue-Regular;
-  --font-tiro-it: TiroDevanagariMarathi-Italic;
-  --font-tiro-reg: TiroDevanagariMarathi-Regular;
   --color-base: rgb(218, 244, 253);
   --color-second: rgb(6, 6, 57);
-  --color-highlight: #2288bf;
+  --color-highlight: #f33636;
 }
 
 * {
@@ -34,8 +32,4 @@ li {
 
 p {
   margin: 1rem 0;
-  font-weight: 400;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.2rem;
 }
