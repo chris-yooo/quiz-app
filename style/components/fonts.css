@@ -33,15 +33,3 @@
 
   src: url(../fonts/ComicNeue-Regular.ttf);
 }
-
-@font-face {
-  font-family: TiroDevanagariMarathi-Italic;
-
-  src: url(../fonts/TiroDevanagariMarathi-Italic.ttf);
-}
-
-@font-face {
-  font-family: TiroDevanagariMarathi-Regular;
-
-  src: url(../fonts/TiroDevanagariMarathi-Regular.ttf);
-}
